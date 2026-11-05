@@ -1,0 +1,22 @@
+{
+  "name": "reservafans-api",
+  "version": "0.2.0",
+  "description": "API REST (padrao MVC) do sistema ReservaFans - gestao e agendamento de salas, auditorios e equipamentos da FANS",
+  "main": "src/server.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node src/server.js",
+    "seed": "node src/seed.js",
+    "seed:demo": "node src/seedDemo.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.2",
+    "multer": "^1.4.5-lts.1",
+    "sequelize": "^6.37.3",
+    "sqlite3": "^6.0.1"
+  }
+}
